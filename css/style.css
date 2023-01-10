@@ -1,0 +1,434 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+font-family: 'roboto',sans-serif;
+}
+h1{
+    color:rgb(62, 61, 61);
+    font-weight:bold;
+    font-size:40px;
+    background-color: rgb(156, 155, 155);
+    text-align:center;
+    padding:40px;
+    }
+.card__title--colorsize{
+    color:rgb(90, 85, 85);
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+    padding:2px 20px 20px 20px;
+}
+.bordesredondeados{
+    border-radius:3%;
+    margin:10px;
+}
+ul{
+    list-style:none;
+}
+ol{
+    list-style:none;
+}
+.negrita{
+    font-weight:bold;
+}
+.tamañotitulo{
+    font-size:20px;
+}
+.imgchica{
+    width:70%;
+}
+.imgchica2{
+    width:70%;
+}
+.imgchica3{
+    width:40%;
+
+}
+.imgchica4{
+    width:627px;
+}
+.letra{
+    font-style:normal;
+    font-family:sans-serif;
+}
+.textogrande{
+    font-size:1,5rem;
+}
+.fuente{
+    font-family:sans-serif;
+}
+.centrar{
+    text-align:center;
+}
+.interlineado{
+    line-height:1,6;
+}
+.fondo{
+    background-color: aqua;
+}
+.content1{
+    padding:20px;
+    background-color: rgb(180, 196, 196);
+    border: solid 10px white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:20px;
+    margin-bottom: 40px;
+    overflow: auto;
+    }
+
+.navegacion li a{
+        text-decoration:none;
+        background-color: rgb(13, 13, 75);
+        padding:10px;
+        color: white;
+        border-radius: 5%;
+        margin:5px;
+        }
+.navegacion li a:hover{
+    background-color: rgb(115, 115, 214);
+    color:white;
+}
+ul{
+    list-style:none;
+    
+}
+li{
+    display:inline-block;
+    position:relative;
+    }
+ul ul{
+    position:absolute;
+    display:none;
+}
+ul ul li{
+    display:block;
+    margin:23px;
+}
+ul li:hover ul{
+    display:block;
+    margin:0px;
+}
+.logo{
+    width: 120px;
+     
+     border-radius: 50%;
+}
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: rgb(180, 196, 196);
+        border-bottom: solid 10px white;
+        padding: 5px;
+       
+       
+         }
+    .contenedorlogo{
+        width: 15%;
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .contenedornav{
+        width: 85%;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        
+        
+    }
+    .barranavegacion{
+        width: 85%;
+        justify-content: flex-end;
+        align-items: center;
+        display: flex;
+        
+        
+    }
+    
+    .ulbloque {
+        position:absolute;
+        display:none;
+    }
+    .ulbloque2{
+        display:block;
+    }
+    .ulbloque:hover ul{
+        display:block;
+    }
+    .derechos{
+        text-align: center;
+    }
+.derechos{
+    padding-bottom:10px;
+}
+.espaciocontactanos{
+    padding:10px;
+}
+footer{
+    background-color: rgb(172, 171, 171);
+    }
+
+.irarriba a{
+        color:rgb(4, 4, 66);
+        text-decoration: none;
+}
+.imgchica5{
+    width: 200px;
+    
+}
+.continicio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+.contimagen{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conttexto{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.texto1{
+    width:90%;
+
+}
+
+.img1{
+        width:100%;
+
+    }
+.contenedornos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nosotrosfoto{
+    width:60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.nosotrostexto{
+    width: 40%;
+}
+.imagennosotros{
+    width: 90%;
+}
+.texto2{
+    width: 90%;
+}
+.contenedorprod{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.contenedorfotoprod{
+    width: 60%;
+    order:1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedortextoprod{
+    width: 40%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    .img6{
+        width: 90%;
+    }
+    .texto3{
+        width:80%;
+    }
+.contenedorimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.texto4{
+    text-align: center;
+}
+#grilla{
+    display: grid;
+    grid-template-areas: "seccion_logo  seccion_nav    seccion_nav"
+                        "principal  principal   principal"
+                        "eventos    eventos     publicidad"
+                        "pie_de_pag pie_de_pag  pie_de_pag";
+    grid-template-columns: 15% 65% 20%;
+    grid-template-rows: auto auto auto auto;
+}
+#seccion_logo{
+    grid-area: seccion_logo;
+    background-color: rgb(180, 196, 196);
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    border-bottom: solid 10px white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#seccion_nav{
+    grid-area: seccion_nav;
+    background-color: rgb(180, 196, 196);
+    justify-content: flex-end;
+    display: flex;
+    border-bottom: solid 10px white;
+    align-items: center;
+    
+    padding-right: 10px;
+    
+}
+#principal{
+    grid-area: principal;
+    
+}
+#eventos{
+    grid-area: eventos;
+    
+}
+#publicidad{
+    grid-area: publicidad;
+    
+}
+#pie_de_pag{
+    grid-area: pie_de_pag;
+    background-color: rgb(172, 171, 171);
+}
+@media screen and (max-width: 1023px) {
+    #grilla{
+    display: grid;
+    grid-template-areas: "seccion_logo  seccion_nav seccion_nav"
+                        "principal  principal principal"
+                        "eventos eventos eventos"
+                        "publicidad publicidad  publicidad"
+                        "pie_de_pag pie_de_pag  pie_de_pag";
+    grid-template-columns: 25% 55% 20%;
+    grid-template-rows: auto auto auto auto auto;
+   }
+  
+
+}
+@media screen and (max-width: 600px) {
+    #grilla{
+    display: grid;
+    grid-template-areas: "seccion_logo"
+                        "seccion_nav"
+                        "principal"
+                        "eventos"
+                        "publicidad"
+                        "pie_de_pag";
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 12vh auto auto auto auto;
+}
+#seccion_logo{
+    
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo{
+    width: 100px;
+     padding:5px; 
+    }
+
+    .navegacion li a{
+        
+        font-size:15px;
+        }
+  
+        #seccion_nav{
+            justify-content: center;
+            align-items: center;
+        
+        }
+        .imgchica5{
+            width: 90%;
+            
+        }
+}
+@media screen and (max-width: 419px) {
+    #grilla{
+    display: grid;
+    grid-template-areas: "seccion_logo"
+                        "seccion_nav"
+                        "principal"
+                        "eventos"
+                        "publicidad"
+                        "pie_de_pag";
+    grid-template-columns: 100%;
+    grid-template-rows: 15vh 10vh auto auto auto;
+}
+#seccion_logo{
+    
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo{
+    width: 100px;
+     padding:5px; 
+    }
+
+
+    
+    .navegacion li a{
+        
+        padding:5px;
+        font-size:14px;
+        }
+    h1{
+           
+            font-size:20px;
+            padding: 20px;
+            }
+.content1{
+                padding:10px;
+                background-color: rgb(180, 196, 196);
+                border: solid 10px white;
+                margin-left: 20px;
+                margin-right: 20px;
+                margin-top:20px;
+                margin-bottom: 40px;
+                overflow: auto;
+                }
+                .imgchica5{
+                    width: 90%;
+                    
+                }
+}
+@media screen and (max-width: 344px) {
+    .navegacion li a{
+        margin:3px;
+        padding:3px;
+        font-size:12px;
+        }
+    }
+           
+    #grilla_nosotros{
+        display: grid;
+        grid-template-areas: "seccion_logo  seccion_nav    seccion_nav"
+                            "principal  principal   principal"
+                            "pie_de_pag pie_de_pag  pie_de_pag";
+        grid-template-columns: 15% 65% 20%;
+        grid-template-rows: auto auto auto auto;
+    }
