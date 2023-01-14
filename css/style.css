@@ -273,9 +273,12 @@ footer{
     grid-template-columns: 15% 65% 20%;
     grid-template-rows: auto auto auto auto;
 }
+.color{
+    background-color: rgb(180, 196, 196);
+}
 #seccion_logo{
     grid-area: seccion_logo;
-    background-color: rgb(180, 196, 196);
+    background-color: red;
     justify-content: flex-start;
     align-items: center;
     display: flex;
@@ -287,12 +290,11 @@ footer{
 }
 #seccion_nav{
     grid-area: seccion_nav;
-    background-color: rgb(180, 196, 196);
+    background-color: blue;
     justify-content: flex-end;
     display: flex;
     border-bottom: solid 10px white;
     align-items: center;
-    
     padding-right: 10px;
     
 }
@@ -423,12 +425,15 @@ footer{
         font-size:12px;
         }
     }
-           
     #grilla_nosotros{
         display: grid;
-        grid-template-areas: "seccion_logo  seccion_nav    seccion_nav"
-                            "principal  principal   principal"
-                            "pie_de_pag pie_de_pag  pie_de_pag";
-        grid-template-columns: 15% 65% 20%;
+        grid-template-areas: "seccion_logo  seccion_nav"
+                            "main_nosotros  main_nosotros"
+                            "pie_de_pag pie_de_pag";
+        grid-template-columns: 15% 85%;
         grid-template-rows: auto auto auto;
     }
+#grid_nosotros{
+    grid-area: main_nosotros;
+    background-color: green;
+}

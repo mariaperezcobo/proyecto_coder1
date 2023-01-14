@@ -18,51 +18,71 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <div class="contenedorlogo">  
-                <img class="logo" src="../imagenes/logo2.png">
-             </div>
-        <nav class="contenedornav">
-           <ul class="navegacion barranavegacion">
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="./productos.html">Productos</a></li>
-              <li><a href="./ofertas.html">Ofertas</a></li>
-               <li><a href="./contactanos.html">Contactanos</a></li>
-           </ul>
-     </nav>
-     </header>
-    <main>
-        <h1>Acerca de nosotros</h1>
-        <section>
-        <div class="content1">
-            <h2 class="card__title--colorsize">Historia</h2>
-            <div class="contenedornos">
-                <div class="nosotrostexto">
-                    <p class="texto2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quo odit obcaecati cupiditate fugit cum, rem atque, officiis minus debitis praesentium totam doloremque quae officia alias suscipit beatae voluptas illo.</p>
-                </div>
-                <div class="nosotrosfoto">
-                    <img class="imgchica4 bordesredondeados imagennosotros" src="../imagenes/mujer estir.png">
+    <div id="grilla_nosotros">
+        <header id="seccion_logo">
+            <div>
+                <div>  
+                    <img class="logo" src="../imagenes/logo2.png">
+                 </div>
+                 
+          
+         </header>
+         <div id="seccion_nav">
+            <nav>
+                <ul class="navegacion">
+                   <li><a href="../index.html">Inicio</a></li>
+                   <li><a href="./productos.html">Productos</a>
+                    <ul>
+                        <li><a href="./productos.html#ind">Indumentaria</a></li>
+                        <li><a href="./productos.html#calz">Calzado</a></li>
+                     </ul>
+                </li>
+                  
+
+                   <li><a href="./ofertas.html">Ofertas</a></li>
+                    <li><a href="./contactanos.html">Contactanos</a></li>
+                </ul>
+          </nav>
+         </div>
+         <div id="grid_nosotros">
+            <main>
+                <div >
+                    <h1>Acerca de nosotros</h1>
+                    <section>
+                    <div class="content1">
+                        <h2 class="card__title--colorsize">Historia</h2>
+                        <div class="contenedornos">
+                            <div class="nosotrostexto">
+                                <p class="texto2"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, quo odit obcaecati cupiditate fugit cum, rem atque, officiis minus debitis praesentium totam doloremque quae officia alias suscipit beatae voluptas illo.</p>
+                            </div>
+                            <div class="nosotrosfoto">
+                                <img class="imgchica4 bordesredondeados imagennosotros" src="../imagenes/mujer estir.png">
+                            </div>
+                            
+                            
+                        </div> 
+                    
+                    </div>
+                    </section>
                 </div>
                 
-                
-            </div> 
+            </main>
+         </div>
         
-        </div>
-        </section>
-    </main>
-    <footer>
-         <div>
-            <i class="fa-brands fa-instagram fa-3x"></i>
-            <i class="fa-brands fa-whatsapp fa-3x"></i>
-            <i class="fa-brands fa-twitter fa-3x"></i>
-        </div>
-        <div class="irarriba">
-            <a href="../index.html#seccion_especial">Conoce los proximos eventos</a>
-        </div>
-        <div class="derechos">
-            <p>Todos los derechos reservados</p>
-        </div>
-    </footer>
+        <footer id="pie_de_pag">
+             <div>
+                <i class="fa-brands fa-instagram fa-3x"></i>
+                <i class="fa-brands fa-whatsapp fa-3x"></i>
+                <i class="fa-brands fa-twitter fa-3x"></i>
+            </div>
+            <div class="irarriba">
+                <a href="../index.html#seccion_especial">Conoce los proximos eventos</a>
+            </div>
+            <div class="derechos">
+                <p>Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+    
 </body>
 </html>
