@@ -40,7 +40,11 @@ ol{
 }
 .imgchica2{
     width:70%;
+    
 }
+
+
+
 .imgchica3{
     width:40%;
 
@@ -115,52 +119,47 @@ ul li:hover ul{
      
      border-radius: 50%;
 }
-    .header{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        background-color: rgb(180, 196, 196);
-        border-bottom: solid 10px white;
-        padding: 5px;
-       
-       
-         }
-    .contenedorlogo{
-        width: 15%;
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }
-    .contenedornav{
-        width: 85%;
-        display: flex;
-        justify-content: flex-end;
-        flex-wrap: wrap;
-        
-        
-    }
-    .barranavegacion{
-        width: 85%;
-        justify-content: flex-end;
-        align-items: center;
-        display: flex;
-        
-        
-    }
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(180, 196, 196);
+    border-bottom: solid 10px white;
+    padding: 5px;   
+}
+.contenedorlogo{
+    width: 15%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedornav{
+    width: 85%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.barranavegacion{
+    width: 85%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;        
+}
+
     
-    .ulbloque {
+.ulbloque {
         position:absolute;
         display:none;
     }
-    .ulbloque2{
+.ulbloque2{
         display:block;
     }
     .ulbloque:hover ul{
         display:block;
     }
-    .derechos{
+.derechos{
         text-align: center;
     }
 .derechos{
@@ -181,6 +180,7 @@ footer{
     width: 200px;
     
 }
+
 .continicio{
     display: flex;
     flex-wrap: wrap;
@@ -261,6 +261,10 @@ footer{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.gatorade{
+    width: 90%;
+    
+}
 .texto4{
     text-align: center;
 }
@@ -290,12 +294,14 @@ footer{
 }
 #seccion_nav{
     grid-area: seccion_nav;
-    background-color: rgb(180, 196, 196);
-    justify-content: flex-end;
+    background-color:  rgb(180, 196, 196);
+    justify-content:flex-end;
+    
     display: flex;
     border-bottom: solid 10px white;
     align-items: center;
     padding-right: 10px;
+    padding-top: 10px;
     
 }
 #principal{
@@ -308,7 +314,10 @@ footer{
 }
 #publicidad{
     grid-area: publicidad;
+    align-items: center;
+    justify-content: center;
     
+    display: grid;
 }
 #pie_de_pag{
     grid-area: pie_de_pag;
@@ -385,35 +394,32 @@ grid-area: main_nosotros;
                         "publicidad"
                         "pie_de_pag";
     grid-template-columns: 100%;
-    grid-template-rows: 15vh 12vh auto auto auto auto;
+    grid-template-rows: auto 12vh auto auto auto auto;
 }
-#seccion_logo{
-    
-    justify-content: center;
-    align-items: center;
-    
-
+    #seccion_logo{
+        justify-content: center;
+        align-items: center;
 }
-.logo{
-    width: 100px;
-     padding:5px; 
-    }
+    .logo{
+        width: 100px;
+        padding:5px; 
+        }
 
     .navegacion li a{
         
         font-size:15px;
         }
   
-        #seccion_nav{
+    #seccion_nav{
             justify-content: center;
             align-items: center;
         
         }
-        .imgchica5{
+    .imgchica5{
             width: 90%;
             
         }
-        #grilla_nosotros{
+    #grilla_nosotros{
             display: grid;
             grid-template-areas: "seccion_logo"
                                 "seccion_nav"
@@ -421,9 +427,9 @@ grid-area: main_nosotros;
                                 
                                 "pie_de_pag";
             grid-template-columns: 100%;
-            grid-template-rows: 15vh 12vh auto auto;
+            grid-template-rows: auto 12vh auto auto;
         }
-        #grilla_productos{
+    #grilla_productos{
             display: grid;
             grid-template-areas: "seccion_logo"
                                 "seccion_nav"
@@ -431,33 +437,33 @@ grid-area: main_nosotros;
                                 
                                 "pie_de_pag";
             grid-template-columns: 100%;
-            grid-template-rows: 15vh 12vh auto auto;
+            grid-template-rows: auto 12vh auto auto;
         }
 
-        .imgchica4{
+    .imgchica4{
             width: 90%;
             
         }
-        .contenedornos{
+    .contenedornos{
                 
             justify-content: center;
             align-items: center;
         }
-        .nosotrosfoto{
+    .nosotrosfoto{
             width:100%;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
         }
-        .nosotrostexto{
+    .nosotrostexto{
             width: 90%;
             justify-content: center;
             align-items: center;
         }
-        .texto2{
+    .texto2{
             text-align: center;
         }
-        .content1{
+    .content1{
             padding:10px;
             background-color: rgb(180, 196, 196);
             
@@ -467,27 +473,28 @@ grid-area: main_nosotros;
             margin-bottom: 20px;
            
             }
-            
-            h1{
-           
-                font-size:25px;
-                padding: 15px;
+    h1{
+        font-size:25px;
+        padding: 15px;
                 }
-            .contenedorfotoprod{
-                    width: 100%;
+    .contenedorfotoprod{
+        width: 100%;
                    
                 }
-                .contenedortextoprod{
-                    width: 100%;
-                    text-align: center;
-                    justify-content: center;
-                    align-items: center;
+    .contenedortextoprod{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
                     
                 }
-                .imgchica2{
-                    width:90%;
-                }
-}
+    .imgchica2{
+        width:90%;
+
+    }
+   
+    }      
+
 @media screen and (max-width: 480px) {
     #grilla{
     display: grid;
@@ -498,30 +505,27 @@ grid-area: main_nosotros;
                         "publicidad"
                         "pie_de_pag";
     grid-template-columns: 100%;
-    grid-template-rows: 12vh 8vh auto auto auto;
+    grid-template-rows: auto 8vh auto auto auto;
 }
-#seccion_logo{
-    
-    justify-content: center;
-    align-items: center;
-    
+    #seccion_logo{
+        
+        justify-content: center;
+        align-items: center;
+        
 
-}
-#grilla_nosotros{
-    
-    grid-template-rows: 12vh 8vh auto auto;
-}
-#grilla_productos{
-    
-    grid-template-rows: 12vh 8vh auto auto;
-}
-.logo{
-    width: 100px;
-     padding:5px; 
     }
-
-
-    
+    #grilla_nosotros{
+        
+        grid-template-rows: auto 8vh auto auto;
+    }
+    #grilla_productos{
+        
+        grid-template-rows: auto 8vh auto auto;
+    }
+    .logo{
+        width: 100px;
+        padding:5px; 
+        }
     .navegacion li a{
         
         padding:3px;
@@ -532,7 +536,7 @@ grid-area: main_nosotros;
             font-size:20px;
             padding: 20px;
             }
-.content1{
+    .content1{
                 padding:10px;
                 background-color: rgb(180, 196, 196);
                 border: solid 10px white;
@@ -542,28 +546,28 @@ grid-area: main_nosotros;
                 margin-bottom: 40px;
                 overflow: auto;
                 }
-                .imgchica5{
-                    width: 90%;
+    .imgchica5{
+        width: 90%;
                     
                 }
-                .contenedornos{
+    .contenedornos{
                 
-                    justify-content: center;
-                    align-items: center;
+        justify-content: center;
+        align-items: center;
                 }
-                .nosotrosfoto{
-                    width:100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
+    .nosotrosfoto{
+        width:100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
                 }
-                .nosotrostexto{
-                    width: 90%;
+    .nosotrostexto{
+        width: 90%;
                     
                 }
                 
-                .imgchica4{
-                    width: 90%;
+    .imgchica4{
+        width: 90%;
                     
                 }
 }
@@ -574,4 +578,6 @@ grid-area: main_nosotros;
         font-size:12px;
         }
     }
+
+
     
