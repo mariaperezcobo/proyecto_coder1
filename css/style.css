@@ -209,6 +209,13 @@ footer{
         width:100%;
 
     }
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
 .contenedornos{
     display: flex;
     flex-wrap: wrap;
@@ -263,7 +270,7 @@ footer{
 }
 .gatorade{
     width: 90%;
-    
+    PADDING:10px;
 }
 .texto4{
     text-align: center;
@@ -316,7 +323,7 @@ footer{
     grid-area: publicidad;
     align-items: center;
     justify-content: center;
-    
+    border-bottom: solid 10px white;
     display: grid;
 }
 #pie_de_pag{
@@ -384,6 +391,42 @@ grid-area: main_nosotros;
 
 
 }
+@media screen and (max-width: 900px) {
+    .contenedorfotoprod{
+        width: 100%;
+                   
+                }
+    .contenedortextoprod{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+                    
+                }
+    .imgchica2{
+        width:90%;
+}
+.contenedornos{
+                
+    justify-content: center;
+    align-items: center;
+}
+.nosotrosfoto{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nosotrostexto{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.texto2{
+    text-align: center;
+}
+}
+
 @media screen and (max-width: 600px) {
     #grilla{
     display: grid;
@@ -444,25 +487,7 @@ grid-area: main_nosotros;
             width: 90%;
             
         }
-    .contenedornos{
-                
-            justify-content: center;
-            align-items: center;
-        }
-    .nosotrosfoto{
-            width:100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    .nosotrostexto{
-            width: 90%;
-            justify-content: center;
-            align-items: center;
-        }
-    .texto2{
-            text-align: center;
-        }
+   
     .content1{
             padding:10px;
             background-color: rgb(180, 196, 196);
@@ -477,23 +502,14 @@ grid-area: main_nosotros;
         font-size:25px;
         padding: 15px;
                 }
-    .contenedorfotoprod{
-        width: 100%;
-                   
-                }
-    .contenedortextoprod{
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-                    
-                }
-    .imgchica2{
-        width:90%;
-
+ 
+    
+    .carrusel{
+        
+        width: 90%;
     }
    
-    }      
+}   
 
 @media screen and (max-width: 480px) {
     #grilla{
