@@ -82,6 +82,7 @@ ol{
     overflow: auto;
     }
 
+
 .navegacion li a{
         text-decoration:none;
         background-color: rgb(13, 13, 75);
@@ -140,6 +141,7 @@ ul li:hover ul{
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    align-items: center;
 }
 .barranavegacion{
     width: 85%;
@@ -258,7 +260,7 @@ footer{
     align-items: center;
 }
     .img6{
-        width: 90%;
+        width: 60%;
     }
     .texto3{
         width:80%;
@@ -298,6 +300,8 @@ footer{
     border-bottom: solid 10px white;
     padding-top: 5px;
     padding-bottom: 5px;
+    
+    
 }
 #seccion_nav{
     grid-area: seccion_nav;
@@ -309,6 +313,9 @@ footer{
     align-items: center;
     padding-right: 10px;
     padding-top: 10px;
+    
+    
+    
     
 }
 #principal{
@@ -392,6 +399,12 @@ grid-area: main_nosotros;
 
 }
 @media screen and (max-width: 900px) {
+    #grilla{
+        display: grid;
+       
+        grid-template-columns: 24% 56% 20%;
+        grid-template-rows: auto auto auto auto auto;
+       }
     .contenedorfotoprod{
         width: 100%;
                    
@@ -425,6 +438,12 @@ grid-area: main_nosotros;
 .texto2{
     text-align: center;
 }
+.navegacion li a{
+    
+    padding:8px;
+    
+    margin:3px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -437,7 +456,7 @@ grid-area: main_nosotros;
                         "publicidad"
                         "pie_de_pag";
     grid-template-columns: 100%;
-    grid-template-rows: auto 12vh auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
 }
     #seccion_logo{
         justify-content: center;
@@ -480,7 +499,7 @@ grid-area: main_nosotros;
                                 
                                 "pie_de_pag";
             grid-template-columns: 100%;
-            grid-template-rows: auto 12vh auto auto;
+            grid-template-rows: auto auto auto auto;
         }
 
     .imgchica4{
@@ -521,7 +540,7 @@ grid-area: main_nosotros;
                         "publicidad"
                         "pie_de_pag";
     grid-template-columns: 100%;
-    grid-template-rows: auto 8vh auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
 }
     #seccion_logo{
         
@@ -532,11 +551,11 @@ grid-area: main_nosotros;
     }
     #grilla_nosotros{
         
-        grid-template-rows: auto 8vh auto auto;
+        grid-template-rows: auto auto auto auto;
     }
     #grilla_productos{
         
-        grid-template-rows: auto 8vh auto auto;
+        grid-template-rows: auto auto auto auto;
     }
     .logo{
         width: 100px;
@@ -587,7 +606,7 @@ grid-area: main_nosotros;
                     
                 }
 }
-@media screen and (max-width: 346px) {
+@media screen and (max-width: 360px) {
     .navegacion li a{
         margin:1px;
         padding:1px;
