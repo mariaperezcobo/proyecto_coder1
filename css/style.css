@@ -291,8 +291,20 @@ footer{
     grid-template-columns: 15% 65% 20%;
     grid-template-rows: auto auto auto auto;
 }
-.color{
+.colornav{
     background-color: rgb(180, 196, 196);
+}
+.botonnav{
+    text-decoration:none;
+    background-color: rgb(13, 13, 75);
+    padding:10px;
+    color: white;
+    border-radius: 5%;
+    margin:5px;
+    }
+.botonnav:hover{
+background-color: rgb(115, 115, 214);
+color:white;
 }
 #seccion_logo{
     grid-area: seccion_logo;
