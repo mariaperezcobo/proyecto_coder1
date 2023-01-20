@@ -78,7 +78,7 @@ ol{
     margin-left: 50px;
     margin-right: 50px;
     margin-top:20px;
-    margin-bottom: 40px;
+    
     overflow: auto;
     }
 
@@ -172,6 +172,7 @@ ul li:hover ul{
 }
 footer{
     background-color: rgb(172, 171, 171);
+    border-top: 30px solid white;
     }
 
 .irarriba a{
@@ -236,12 +237,14 @@ footer{
 }
 .nosotrostexto{
     width: 40%;
+    
 }
 .imagennosotros{
     width: 90%;
 }
 .texto2{
     width: 90%;
+    text-align: center;
 }
 .contenedorprod{
     display: flex;
@@ -264,11 +267,11 @@ footer{
     flex-wrap: wrap;
     align-items: center;
 }
-    .img6{
-        width: 60%;
+.img6{
+    width: 60%;
     }
-    .texto3{
-        width:80%;
+.texto3{
+    width:80%;
     }
 .contenedorimg{
     display: flex;
@@ -278,6 +281,62 @@ footer{
 .gatorade{
     width: 90%;
     PADDING:10px;
+}
+.titulo_art{
+    color:rgb(62, 61, 61);
+    font-weight:bold;
+    font-size:40px;
+    background-color: rgb(156, 155, 155);
+    text-align:center;
+    padding:30px;
+    border-bottom: 20px solid white;
+    }
+
+.calzas{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titulo{
+    margin-top: 5px;
+}
+.calzastitulo{
+    width: 100%;
+    background-color: rgb(180, 196, 196);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.cardscalzas{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(180, 196, 196);
+    overflow: auto;
+}
+.calzasfoto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+    background-color: rgb(180, 196, 196);
+
+}
+
+.calzastitulo{
+    
+    padding-top: 30px;
+
 }
 .texto4{
     text-align: center;
@@ -376,8 +435,8 @@ grid-area: main_nosotros;
     grid-template-rows: auto auto auto;
 }
 
-    #grid_productos{
-        grid-area: main_productos;
+#grid_productos{
+    grid-area: main_productos;
         
     }
      
