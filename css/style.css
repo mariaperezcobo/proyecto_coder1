@@ -182,6 +182,11 @@ footer{
     width: 200px;
     
 }
+.imgchica5:hover
+{
+    transform: rotatez(10deg);
+}
+
 
 .continicio{
     display: flex;
