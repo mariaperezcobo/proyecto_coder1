@@ -289,10 +289,19 @@ footer{
     background-color: rgb(156, 155, 155);
     text-align:center;
     padding:30px;
-    border-bottom: 20px solid white;
+
     }
 
-.calzas{
+.calzas1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 20px solid white;
+    
+    
+}
+.calzas2{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
