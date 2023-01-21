@@ -10,7 +10,7 @@ h1{
     font-size:40px;
     background-color: rgb(156, 155, 155);
     text-align:center;
-    padding:40px;
+    padding:30px;
     }
 .card__title--colorsize{
     color:rgb(90, 85, 85);
@@ -149,8 +149,6 @@ ul li:hover ul{
     align-items: center;
     display: flex;        
 }
-
-    
 .ulbloque {
         position:absolute;
         display:none;
@@ -187,8 +185,6 @@ footer{
 {
     transform: rotatez(10deg);
 }
-
-
 .continicio{
     display: flex;
     flex-wrap: wrap;
@@ -210,12 +206,9 @@ footer{
 }
 .texto1{
     width:90%;
-
 }
-
 .img1{
         width:100%;
-
     }
 .carrusel{
     display: flex;
@@ -223,6 +216,7 @@ footer{
     justify-content: center;
     align-items: center;
     width: 70%;
+    margin-top:20px;;
 }
 .contenedornos{
     display: flex;
@@ -289,8 +283,7 @@ footer{
     background-color: rgb(156, 155, 155);
     text-align:center;
     padding:30px;
-
-    }
+}
 
 .calzas1{
     display: flex;
@@ -369,7 +362,7 @@ footer{
     color: white;
     border-radius: 5%;
     margin:5px;
-    }
+}
 .botonnav:hover{
 background-color: rgb(115, 115, 214);
 color:white;
