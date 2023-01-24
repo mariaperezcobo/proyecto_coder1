@@ -357,11 +357,11 @@ footer{
 }
 #grilla{
     display: grid;
-    grid-template-areas: "seccion_logo  seccion_nav    seccion_nav"
-                        "principal  principal   principal"
-                        "eventos    eventos     publicidad"
-                        "pie_de_pag pie_de_pag  pie_de_pag";
-    grid-template-columns: 15% 65% 20%;
+    grid-template-areas: "seccion_logo    seccion_logo"
+                        "principal   principal"
+                        "eventos    publicidad"
+                        "pie_de_pag  pie_de_pag";
+    grid-template-columns: 80% 20%;
     grid-template-rows: auto auto auto auto;
 }
 .colornav{
@@ -454,7 +454,7 @@ grid-area: main_nosotros;
 }
 #grilla_productos{
     display: grid;
-    grid-template-areas: "seccion_logo  seccion_nav"
+    grid-template-areas: "seccion_logo  seccion_logo"
                         "main_productos main_productos"
                         
                         "pie_de_pag pie_de_pag";
@@ -471,12 +471,12 @@ grid-area: main_nosotros;
 @media screen and (max-width: 1023px) {
     #grilla{
     display: grid;
-    grid-template-areas: "seccion_logo  seccion_nav seccion_nav"
-                        "principal  principal principal"
-                        "eventos eventos eventos"
-                        "publicidad publicidad  publicidad"
-                        "pie_de_pag pie_de_pag  pie_de_pag";
-    grid-template-columns: 25% 55% 20%;
+    grid-template-areas: "seccion_logo seccion_logo"
+                        "principal  principal"
+                        "eventos eventos"
+                        "publicidad  publicidad"
+                        "pie_de_pag  pie_de_pag";
+    grid-template-columns: 80% 20%;
     grid-template-rows: auto auto auto auto auto;
    }
    #grilla_nosotros{
@@ -502,12 +502,7 @@ grid-area: main_nosotros;
 
 }
 @media screen and (max-width: 900px) {
-    #grilla{
-        display: grid;
-       
-        grid-template-columns: 24% 56% 20%;
-        grid-template-rows: auto auto auto auto auto;
-       }
+   
     .contenedorfotoprod{
         width: 100%;
                    
@@ -550,17 +545,7 @@ grid-area: main_nosotros;
 }
 
 @media screen and (max-width: 600px) {
-    #grilla{
-    display: grid;
-    grid-template-areas: "seccion_logo"
-                        "seccion_nav"
-                        "principal"
-                        "eventos"
-                        "publicidad"
-                        "pie_de_pag";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto;
-}
+ 
     #seccion_logo{
         justify-content: center;
         align-items: center;
@@ -634,17 +619,7 @@ grid-area: main_nosotros;
 }   
 
 @media screen and (max-width: 480px) {
-    #grilla{
-    display: grid;
-    grid-template-areas: "seccion_logo"
-                        "seccion_nav"
-                        "principal"
-                        "eventos"
-                        "publicidad"
-                        "pie_de_pag";
-    grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto;
-}
+
     #seccion_logo{
         
         justify-content: center;

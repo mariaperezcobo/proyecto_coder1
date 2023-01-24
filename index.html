@@ -22,27 +22,46 @@
 <body >
    <div id="grilla">
          <header id="seccion_logo">
-             <div id="arriba">
-               <div id="inicio">
-                  <img class="logo" src="./imagenes/logo2.png">
+            <nav class="navbar navbar-expand-lg colornav">
+               <div class="container-fluid">
+                     
+                 <a class="navbar-brand" href="../index.html">
+                   <img class="logo" src="../imagenes/logo2.png">
+                 </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+                 
+                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                     <ul class="navbar-nav">
+                         <li class="nav-item">
+                         <a class="nav-link botonnav" href="./pages/nosotros.html">Nosotros</a>
+                       </li>
+                       
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle botonnav" href="./pages/productos2.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Productos
+                         </a>
+                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                           <li><a class="dropdown-item botonnav" href="./pages/productos2.html#">Remeras</a></li>
+                           <li><a class="dropdown-item botonnav" href="./pages/productos2.html#calz">Calzas</a></li>
+                           
+                         </ul>
+                       <li class="nav-item">
+                          <a class="nav-link botonnav" href="./pages/ofertas.html">Ofertas</a>
+                       </li>
+                       <li class="nav-item">
+                          <a class="nav-link botonnav" href="./pages/contactanos.html">Contáctanos</a>
+                       </li>
+                       </li>
+                     </ul>
+                   </div>
+                 
+               
                </div>
-             </div>
+             </nav>
          </header>
-         <div id="seccion_nav">
-            <nav>
-               <ul class="navegacion">
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/productos2.html">Productos</a>
-                   <ul>
-                      <li><a href="./pages/productos2.html#ind">Remeras</a></li>
-                      <li><a href="./pages/productos2.html#calz">Calzas</a></li>
-                   </ul>
-                </li>
-                <li><a href="./pages/ofertas.html">Ofertas</a></li>
-                <li><a href="./pages/contactanos.html">Contáctanos</a></li>
-                </ul>
-              </nav>
-         </div>
+        
          <div id="principal">
             <main>
                <h1>Fitness Ropa Deportiva</h1>
