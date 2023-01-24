@@ -379,6 +379,11 @@ footer{
 background-color: rgb(115, 115, 214);
 color:white;
 }
+.contenedornav2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
 #seccion_logo{
     grid-area: seccion_logo;
     background-color: rgb(180, 196, 196);
@@ -429,7 +434,7 @@ color:white;
 }
 #grilla_nosotros{
     display: grid;
-    grid-template-areas: "seccion_logo  seccion_nav"
+    grid-template-areas: "seccion_logo  seccion_logo"
                         "main_nosotros  main_nosotros"
                         "pie_de_pag pie_de_pag";
     grid-template-columns: 15% 85%;
