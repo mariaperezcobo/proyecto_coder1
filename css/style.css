@@ -435,6 +435,14 @@ color:white;
     grid-template-columns: 15% 85%;
     grid-template-rows: auto auto auto;
 }
+#grilla_nosotros2{
+    display: grid;
+    grid-template-areas: "seccion_logo  seccion_logo"
+                        "main_nosotros  main_nosotros"
+                        "pie_de_pag pie_de_pag";
+    grid-template-columns: 15% 85%;
+    grid-template-rows: auto auto auto;
+}
 #grid_nosotros{
 grid-area: main_nosotros;
 
