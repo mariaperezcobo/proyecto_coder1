@@ -1,0 +1,113 @@
+.carrusel{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-top:20px;;
+}
+.content1{
+    padding:20px;
+    background-color: rgb(180, 196, 196);
+    border: solid 10px white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:20px;
+    overflow: auto;
+    }
+.card__title--colorsize{
+        color:rgb(90, 85, 85);
+        font-weight:bold;
+        font-size:30px;
+        text-align:center;
+        padding:2px 20px 20px 20px;
+    }
+.contenedorimg{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+.gatorade{
+        width: 90%;
+        PADDING:10px;
+    }
+
+.contenedornav2{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+    }
+.contenedornos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+.nosotrostexto{
+        width: 40%;
+        
+    }
+.nosotrosfoto{
+        width:60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .calzas1{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        border-top: 20px solid white;
+        
+        
+    }
+    .cardscalzas{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        align-items: center;
+        flex-wrap: nowrap;
+        
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: rgb(180, 196, 196);
+        overflow: auto;
+    }
+    .calzas2{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .calzasfoto{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding-bottom: 30px;
+        background-color: rgb(180, 196, 196);
+    
+    }
+.content3{
+        padding-top:20px;
+        padding-right:20px;
+        padding-left:20px;
+        background-color: rgb(180, 196, 196);
+        padding-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top:20px;
+        
+        overflow: auto;
+        }
+.espaciocontactanos{
+            padding:10px;
+        }
+        footer{
+            background-color: rgb(172, 171, 171);
+            border-top: 30px solid white;
+            }
+    

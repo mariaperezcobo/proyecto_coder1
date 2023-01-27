@@ -1,0 +1,34 @@
+.botonnav{
+    text-decoration:none;
+    background-color: rgb(13, 13, 75);
+    padding:10px;
+    color: white;
+    border-radius: 5%;
+    margin:5px;
+}
+.botonnav:hover{
+background-color: rgb(115, 115, 214);
+color:white;
+}
+    
+
+ul{
+    list-style:none;
+    
+}
+li{
+    display:inline-block;
+    position:relative;
+    }
+ul ul{
+    position:absolute;
+    display:none;
+}
+ul ul li{
+    display:block;
+    margin:23px;
+}
+ul li:hover ul{
+    display:block;
+    margin:0px;
+}
