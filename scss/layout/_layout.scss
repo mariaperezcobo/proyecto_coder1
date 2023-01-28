@@ -23,16 +23,19 @@
 
 #principal{
     grid-area: principal;
-    
-}
+
 #eventos{
     grid-area: eventos;
     
 }
+
 #publicidad{
     grid-area: publicidad;
-    align-items: center;
-    justify-content: center;
+    
+    
+        justify-content: center;
+        align-items: center;
+ 
     border-bottom: solid 10px white;
     display: grid;
 }
@@ -76,5 +79,8 @@ grid-area: main_nosotros;
 
 #grid_productos{
     grid-area: main_productos;
-        
-    }
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    }}
+
