@@ -116,7 +116,7 @@
   padding-top: 15px;
 }
 
-.card__title--colorsize {
+.card__title--colorsize, .card_prod_tipo_prod_title, .content1_title, .card_nosotros_title {
   color: rgb(90, 85, 85);
   font-weight: bold;
   font-size: 30px;
@@ -141,20 +141,13 @@
   justify-content: flex-end;
 }
 
-.card_nosotros {
+.card_nosotros, .content1 {
   padding: 20px;
   border: solid 10px white;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 20px;
   overflow: auto;
-}
-.card_nosotros_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
 }
 .card_nosotros_contenedor {
   display: flex;
@@ -171,21 +164,6 @@
   flex-wrap: wrap;
 }
 
-.content1 {
-  padding: 20px;
-  border: solid 10px white;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  overflow: auto;
-}
-.content1_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
-}
 .content1_espacio {
   padding: 10px;
 }
@@ -193,14 +171,14 @@
 .card_prod {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border-top: 20px solid white;
 }
 .card_prod_tipo_prod {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 90%;
   flex-wrap: nowrap;
   padding-left: 30px;
@@ -208,24 +186,20 @@
   overflow: auto;
 }
 .card_prod_tipo_prod_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
   padding: 20px;
 }
 
 .card_prod2 {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .card_prod2_tipo_prod {
   display: flex;
   width: 90%;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-wrap: nowrap;
   padding-left: 30px;
   padding-right: 30px;
@@ -233,39 +207,12 @@
 }
 .card_prod2_tipo_prod_fotos {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   width: 100%;
   flex-wrap: nowrap;
   padding-bottom: 30px;
   background-color: rgb(180, 196, 196);
-}
-
-.calzas1 {
-  display: flex;
-  flex-wrap: nowrap;
-  border-top: 20px solid white;
-  align-items: center;
-  justify-content: center;
-}
-
-.cardscalzas {
-  display: flex;
-  width: 90%;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgb(180, 196, 196);
-  overflow: auto;
-}
-
-.calzas2 {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
 }
 
 .content3 {
@@ -375,7 +322,7 @@ footer {
   .imgchica4 {
     width: 90%;
   }
-  .card_nosotros {
+  .card_nosotros, .content1 {
     padding: 10px;
     margin-left: 20px;
     margin-right: 20px;
@@ -430,7 +377,7 @@ footer {
     margin-bottom: 40px;
     overflow: auto;
   }
-  .card_nosotros {
+  .card_nosotros, .content1 {
     padding: 10px;
     background-color: rgb(180, 196, 196);
     border: solid 10px white;

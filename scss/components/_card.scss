@@ -1,3 +1,7 @@
+@mixin alinear_centrar{
+    justify-content: center;
+    align-items: center;
+}
 .carrusel {
     display: flex;
     flex-wrap: nowrap;
@@ -73,11 +77,7 @@
     overflow: auto;
 
     &_title {
-        color: $color_adicional;
-        font-weight: bold;
-        font-size: 30px;
-        text-align: center;
-        padding: 2px 20px 20px 20px;
+        @extend .card__title--colorsize;
     }
 
     &_contenedor {
@@ -100,19 +100,10 @@
 }
 
 .content1 {
-    padding: 20px;
-    border: solid 10px $blanco;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    overflow: auto;
+    @extend .card_nosotros;
 
     &_title {
-        color: $color_adicional;
-        font-weight: bold;
-        font-size: 30px;
-        text-align: center;
-        padding: 2px 20px 20px 20px;
+        @extend .card__title--colorsize;
     }
 
     &_espacio {
@@ -124,15 +115,13 @@
 .card_prod {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+    @include alinear_centrar;
 
     border-top: 20px solid $blanco;
 
     &_tipo_prod {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        @include alinear_centrar;
         width: 90%;
 
         flex-wrap: nowrap;
@@ -142,10 +131,7 @@
         overflow: auto;
 
         &_title {
-            color: $color_adicional;
-            font-weight: bold;
-            font-size: 30px;
-            text-align: center;
+            @extend .card__title--colorsize;
             padding: 20px;
         }
     }
@@ -154,15 +140,13 @@
 .card_prod2 {
     display: flex;
     flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+    @include alinear_centrar;
 
     &_tipo_prod {
         display: flex;
 
         width: 90%;
-        align-items: center;
-        justify-content: center;
+        @include alinear_centrar;
         flex-wrap: nowrap;
         padding-left: 30px;
         padding-right: 30px;
@@ -171,8 +155,7 @@
 
         &_fotos {
             display: flex;
-            align-items: center;
-            justify-content: center;
+            @include alinear_centrar;
             width: 100%;
 
             flex-wrap: nowrap;
@@ -183,35 +166,6 @@
     }
 }
 
-.calzas1 {
-    display: flex;
-    flex-wrap: nowrap;
-
-    border-top: 20px solid white;
-    align-items: center;
-    justify-content: center;
-}
-
-.cardscalzas {
-    display: flex;
-
-    width: 90%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: nowrap;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: $secondary;
-    overflow: auto;
-}
-
-.calzas2 {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-
-}
 
 .content3 {
     padding-top: 20px;
