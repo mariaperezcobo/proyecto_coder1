@@ -1,11 +1,13 @@
 @import "../scss/variables/colors";
+@import "../scss/variables/border";
+
 @import "../scss/normalize/reset";
-@import "../scss/components/layout";
-@import "../scss/components/views";
+@import "../scss/layout/layout";
+@import "../scss/components/card";
+
+@import "../scss/views/views";
 @import "../scss/components/img";
 @import "../scss/components/text";
-@import "../scss/components/card";
-@import "../scss/variables/border";
 @import "../scss/components/navbar";
 
     

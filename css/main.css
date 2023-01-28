@@ -53,15 +53,19 @@
   grid-template-rows: auto auto auto;
 }
 
-#grilla_nosotros2 {
+#grilla_contactanos {
   display: grid;
-  grid-template-areas: "seccion_logo  seccion_logo" "main_nosotros  main_nosotros" "pie_de_pag pie_de_pag";
+  grid-template-areas: "seccion_logo  seccion_logo" "main_contactanos  main_contactanos" "pie_de_pag pie_de_pag";
   grid-template-columns: 15% 85%;
   grid-template-rows: auto auto auto;
 }
 
 #grid_nosotros {
   grid-area: main_nosotros;
+}
+
+#grid_contactanos {
+  grid-area: main_contactanos;
 }
 
 #grilla_productos {
@@ -73,6 +77,204 @@
 
 #grid_productos {
   grid-area: main_productos;
+}
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-top: 20px;
+}
+
+.card_index {
+  padding: 20px;
+  background-color: rgb(180, 196, 196);
+  border: solid 10px white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  overflow: auto;
+}
+.card_index_title {
+  color: rgb(90, 85, 85);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px 20px 20px 20px;
+}
+.card_index_card_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card_index_texto {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.content1 {
+  padding: 20px;
+  background-color: rgb(180, 196, 196);
+  border: solid 10px white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.card__title--colorsize {
+  color: rgb(90, 85, 85);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px 20px 20px 20px;
+}
+
+.contenedorimg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.gatorade {
+  width: 90%;
+  PADDING: 10px;
+}
+
+.contenedornav2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.contenedornos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nosotrostexto {
+  width: 40%;
+}
+
+.nosotrosfoto {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_prod {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 20px solid white;
+}
+.card_prod_tipo_prod {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(180, 196, 196);
+  overflow: auto;
+}
+.card_prod_tipo_prod_title {
+  color: rgb(90, 85, 85);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.card_prod2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.card_prod2_tipo_prod {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(180, 196, 196);
+  overflow: auto;
+}
+.card_prod2_tipo_prod_fotos {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-bottom: 30px;
+  background-color: rgb(180, 196, 196);
+}
+
+.calzas1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 20px solid white;
+}
+
+.cardscalzas {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(180, 196, 196);
+  overflow: auto;
+}
+
+.calzas2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.calzasfoto {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding-bottom: 30px;
+  background-color: rgb(180, 196, 196);
+}
+
+.content3 {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgb(180, 196, 196);
+  padding-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.espaciocontactanos {
+  padding: 10px;
+}
+
+footer {
+  background-color: rgb(172, 171, 171);
+  border-top: 10px solid white;
 }
 
 @media screen and (max-width: 1023px) {
@@ -117,6 +319,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
   }
   .nosotrostexto {
     width: 90%;
@@ -154,7 +357,7 @@
     display: grid;
     grid-template-areas: "seccion_logo" "seccion_nav" "main_nosotros" "pie_de_pag";
     grid-template-columns: 100%;
-    grid-template-rows: auto 12vh auto auto;
+    grid-template-rows: auto auto auto auto;
   }
   #grilla_productos {
     display: grid;
@@ -167,7 +370,6 @@
   }
   .content1 {
     padding: 10px;
-    background-color: rgb(180, 196, 196);
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
@@ -266,6 +468,10 @@
   width: 90%;
 }
 
+.bordesredondeados {
+  border-radius: 3%;
+}
+
 h1 {
   color: rgb(62, 61, 61);
   font-weight: bold;
@@ -273,10 +479,6 @@ h1 {
   background-color: rgb(156, 155, 155);
   text-align: center;
   padding: 30px;
-}
-
-.texto4 {
-  text-align: center;
 }
 
 .derechos {
@@ -301,178 +503,6 @@ h1 {
 .irarriba a {
   color: rgb(4, 4, 66);
   text-decoration: none;
-}
-
-.carrusel {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin-top: 20px;
-}
-
-.card_index {
-  padding: 20px;
-  background-color: rgb(180, 196, 196);
-  border: solid 10px white;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  overflow: auto;
-}
-.card_index_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
-}
-.card_index_card_img {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.content1 {
-  padding: 20px;
-  background-color: rgb(180, 196, 196);
-  border: solid 10px white;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  overflow: auto;
-}
-
-.card__title--colorsize {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
-}
-
-.contenedorimg {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.gatorade {
-  width: 90%;
-  PADDING: 10px;
-}
-
-.contenedornav2 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: flex-end;
-}
-
-.contenedornos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nosotrostexto {
-  width: 40%;
-}
-
-.nosotrosfoto {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.card_prod {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  border-top: 20px solid white;
-}
-.card_prod_tipo_prod {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgb(180, 196, 196);
-  overflow: auto;
-}
-.card_prod_tipo_prod_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
-}
-
-.calzas1 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  border-top: 20px solid white;
-}
-
-.cardscalzas {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: rgb(180, 196, 196);
-  overflow: auto;
-}
-
-.calzas2 {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.calzasfoto {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
-  flex-wrap: nowrap;
-  padding-bottom: 30px;
-  background-color: rgb(180, 196, 196);
-}
-
-.content3 {
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-left: 20px;
-  background-color: rgb(180, 196, 196);
-  padding-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
-  overflow: auto;
-}
-
-.espaciocontactanos {
-  padding: 10px;
-}
-
-footer {
-  background-color: rgb(172, 171, 171);
-  border-top: 30px solid white;
-}
-
-bordesredondeados {
-  border-radius: 3%;
-  margin: 10px;
 }
 
 .botonnav {

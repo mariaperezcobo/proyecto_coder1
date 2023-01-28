@@ -27,16 +27,21 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+    &_texto{
+        text-align: center;
+        padding-top: 15px;
+    }
     }
 
 .content1{
     padding:20px;
-    background-color: $secondary;
+   background-color: $secondary;
     border: solid 10px white;
     margin-left: 50px;
     margin-right: 50px;
     margin-top:20px;
     overflow: auto;
+    
     }
 .card__title--colorsize{
         color:$color_adicional;
@@ -99,9 +104,37 @@
                 font-weight:bold;
                 font-size:30px;
                 text-align:center;
-                padding:2px 20px 20px 20px;
+                padding:20px;
             }
         }    
+    }
+    .card_prod2{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        
+    &_tipo_prod{
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            align-items: center;
+            flex-wrap: nowrap;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $secondary;
+            overflow: auto; 
+        &_fotos{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                align-items: center;
+                flex-wrap: nowrap;
+                padding-bottom: 30px;
+                background-color: $secondary;
+            
+            }        
+    }
     }
     .calzas1{
         display: flex;
@@ -156,6 +189,6 @@
         }
         footer{
             background-color: $primary;
-            border-top: 30px solid white;
+            border-top: 10px solid white;
             }
     
