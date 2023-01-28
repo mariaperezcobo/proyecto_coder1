@@ -176,6 +176,37 @@
   flex-wrap: wrap;
 }
 
+.card_nosotros {
+  padding: 20px;
+  background-color: rgb(180, 196, 196);
+  border: solid 10px white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  overflow: auto;
+}
+.card_nosotros_title {
+  color: rgb(90, 85, 85);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px 20px 20px 20px;
+}
+.card_nosotros_contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_nosotros_contenedor_texto {
+  width: 40%;
+}
+.card_nosotros_contenedor_foto {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card_prod {
   display: flex;
   flex-wrap: nowrap;
@@ -317,18 +348,18 @@ footer {
   .imgchica2 {
     width: 90%;
   }
-  .contenedornos {
+  .card_nosotros_contenedor {
     justify-content: center;
     align-items: center;
   }
-  .nosotrosfoto {
+  .card_nosotros_contenedor_foto {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .nosotrostexto {
+  .card_nosotros_contenedor_texto {
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -374,6 +405,13 @@ footer {
   }
   .imgchica4 {
     width: 90%;
+  }
+  .card_nosotros {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .content1 {
     padding: 10px;
@@ -421,6 +459,16 @@ footer {
     margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 40px;
+    overflow: auto;
+  }
+  .card_nosotros {
+    padding: 10px;
+    background-color: rgb(180, 196, 196);
+    border: solid 10px white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     overflow: auto;
   }
   .imgchica5 {

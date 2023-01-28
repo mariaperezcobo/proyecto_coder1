@@ -47,20 +47,20 @@
     .imgchica2{
         width:90%;
 }
-.contenedornos{
+.card_nosotros_contenedor{
                 
     justify-content: center;
     align-items: center;
     
 }
-.nosotrosfoto{
+.card_nosotros_contenedor_foto{
     width:100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-.nosotrostexto{
+.card_nosotros_contenedor_texto{
     width: 90%;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,13 @@
             width: 90%;
             
         }
-   
+.card_nosotros{
+            padding:10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top:20px;
+            margin-bottom: 20px;
+        }
     .content1{
             padding:10px;
             
@@ -191,6 +197,16 @@
                 margin-bottom: 40px;
                 overflow: auto;
                 }
+                .card_nosotros{
+                    padding:10px;
+                    background-color: rgb(180, 196, 196);
+                    border: solid 10px white;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    margin-top:10px;
+                    margin-bottom: 10px;
+                    overflow: auto;
+                    }
     .imgchica5{
         width: 90%;
                     
@@ -216,6 +232,7 @@
                     
                 }
 }
+
 @media screen and (max-width: 360px) {
     .navegacion li a{
         margin:1px;

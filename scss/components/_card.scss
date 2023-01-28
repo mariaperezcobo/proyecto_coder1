@@ -81,6 +81,37 @@
         display: flex;
         flex-wrap: wrap;
     }
+.card_nosotros{
+        padding:20px;
+       background-color: $secondary;
+        border: solid 10px $blanco;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top:20px;
+        overflow: auto;
+    &_title{
+            color:$color_adicional;
+            font-weight:bold;
+            font-size:30px;
+            text-align:center;
+            padding:2px 20px 20px 20px;
+        }
+    &_contenedor{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        &_texto{
+                width: 40%;
+                
+            }
+        &_foto{
+                width:60%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+        }
+        }
 
 .card_prod{
         display: flex;
