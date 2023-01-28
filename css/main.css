@@ -191,7 +191,6 @@
   flex-wrap: nowrap;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: rgb(180, 196, 196);
   overflow: auto;
 }
 .card_prod_tipo_prod_title {
@@ -216,7 +215,6 @@
   flex-wrap: nowrap;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: rgb(180, 196, 196);
   overflow: auto;
 }
 .card_prod2_tipo_prod_fotos {

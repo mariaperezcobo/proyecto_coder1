@@ -1,14 +1,14 @@
 .botonnav{
     text-decoration:none;
-    background-color: rgb(13, 13, 75);
+    background-color: $boton;
     padding:10px;
-    color: white;
+    color: $blanco;
     border-radius: 5%;
     margin:5px;
 }
 .botonnav:hover{
-background-color: rgb(115, 115, 214);
-color:white;
+background-color: $botonhover;
+color:$blanco;
 }
     
 

@@ -9,7 +9,7 @@
 .card_index{
     padding:20px;
     
-    border: solid 10px white;
+    border: solid 10px $blanco;
     margin-left: 50px;
     margin-right: 50px;
     margin-top:20px;
@@ -36,7 +36,7 @@
 .content1{
     padding:20px;
    background-color: $secondary;
-    border: solid 10px white;
+    border: solid 10px $blanco;
     margin-left: 50px;
     margin-right: 50px;
     margin-top:20px;
@@ -87,7 +87,7 @@
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        border-top: 20px solid white;   
+        border-top: 20px solid $blanco;   
 
     &_tipo_prod{
             display: flex;
@@ -97,7 +97,7 @@
             flex-wrap: nowrap;
             padding-left: 30px;
             padding-right: 30px;
-            background-color: $secondary;
+            
             overflow: auto;
         &_title{
                 color:$color_adicional;
@@ -122,7 +122,7 @@
             flex-wrap: nowrap;
             padding-left: 30px;
             padding-right: 30px;
-            background-color: $secondary;
+            
             overflow: auto; 
         &_fotos{
                 display: flex;
