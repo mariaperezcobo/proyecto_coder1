@@ -6,9 +6,32 @@
     width: 70%;
     margin-top:20px;;
 }
+.card_index{
+    padding:20px;
+    background-color: $secondary;
+    border: solid 10px white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:20px;
+    overflow: auto;
+    
+    &_title{
+        color:$color_adicional;
+        font-weight:bold;
+        font-size:30px;
+        text-align:center;
+        padding:2px 20px 20px 20px;
+    }
+    &_card_img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    }
+
 .content1{
     padding:20px;
-    background-color: rgb(180, 196, 196);
+    background-color: $secondary;
     border: solid 10px white;
     margin-left: 50px;
     margin-right: 50px;
@@ -16,7 +39,7 @@
     overflow: auto;
     }
 .card__title--colorsize{
-        color:rgb(90, 85, 85);
+        color:$color_adicional;
         font-weight:bold;
         font-size:30px;
         text-align:center;
@@ -53,13 +76,39 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+.card_prod{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        border-top: 20px solid white;   
+
+    &_tipo_prod{
+            display: flex;
+            justify-content: center;
+            width: 90%;
+            align-items: center;
+            flex-wrap: nowrap;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $secondary;
+            overflow: auto;
+        &_title{
+                color:$color_adicional;
+                font-weight:bold;
+                font-size:30px;
+                text-align:center;
+                padding:2px 20px 20px 20px;
+            }
+        }    
+    }
     .calzas1{
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        border-top: 20px solid white;
-        
+        border-top: 20px solid white;   
         
     }
     .cardscalzas{
@@ -68,10 +117,9 @@
         width: 90%;
         align-items: center;
         flex-wrap: nowrap;
-        
         padding-left: 30px;
         padding-right: 30px;
-        background-color: rgb(180, 196, 196);
+        background-color: $secondary;
         overflow: auto;
     }
     .calzas2{
@@ -88,14 +136,14 @@
         align-items: center;
         flex-wrap: nowrap;
         padding-bottom: 30px;
-        background-color: rgb(180, 196, 196);
+        background-color: $secondary;
     
     }
 .content3{
         padding-top:20px;
         padding-right:20px;
         padding-left:20px;
-        background-color: rgb(180, 196, 196);
+        background-color: $secondary;
         padding-bottom: 20px;
         margin-left: 50px;
         margin-right: 50px;
@@ -107,7 +155,7 @@
             padding:10px;
         }
         footer{
-            background-color: rgb(172, 171, 171);
+            background-color: $primary;
             border-top: 30px solid white;
             }
     
