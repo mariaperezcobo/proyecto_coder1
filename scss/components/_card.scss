@@ -5,12 +5,18 @@
 .carrusel {
     display: flex;
     flex-wrap: nowrap;
-
-    width: 70%;
+    @include alinear_centrar;
+    width: 60%;
     margin-top: 20px;
     ;
 }
-
+.card__title--colorsize {
+    color: $color_adicional;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px 20px 20px 20px;
+}
 .card_index {
     padding: 20px;
     border: solid 10px $blanco;
@@ -20,11 +26,7 @@
     overflow: auto;
 
     &_title {
-        color: $color_adicional;
-        font-weight: bold;
-        font-size: 30px;
-        text-align: center;
-        padding: 2px 20px 20px 20px;
+        @extend .card__title--colorsize;
     }
 
     &_card_img {
@@ -41,13 +43,7 @@
 
 
 
-.card__title--colorsize {
-    color: $color_adicional;
-    font-weight: bold;
-    font-size: 30px;
-    text-align: center;
-    padding: 2px 20px 20px 20px;
-}
+
 
 .contenedorimg {
     display: flex;
@@ -157,7 +153,6 @@
             display: flex;
             @include alinear_centrar;
             width: 100%;
-
             flex-wrap: nowrap;
             padding-bottom: 30px;
             background-color: $secondary;
@@ -181,5 +176,5 @@
 
 footer {
 
-    border-top: 10px solid white;
+    border-top: 10px solid $blanco;
 }

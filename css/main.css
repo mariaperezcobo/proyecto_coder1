@@ -93,11 +93,25 @@
   grid-area: pie_de_pag;
 }
 
+.bordesredondeados {
+  border-radius: 10%;
+}
+
 .carrusel {
   display: flex;
   flex-wrap: nowrap;
-  width: 70%;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
   margin-top: 20px;
+}
+
+.card__title--colorsize, .card_prod_tipo_prod_title, .content1_title, .card_nosotros_title, .card_index_title {
+  color: rgb(90, 85, 85);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding: 2px 20px 20px 20px;
 }
 
 .card_index {
@@ -108,13 +122,6 @@
   margin-top: 20px;
   overflow: auto;
 }
-.card_index_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
-}
 .card_index_card_img {
   display: flex;
   flex-wrap: wrap;
@@ -123,14 +130,6 @@
 .card_index_texto {
   text-align: center;
   padding-top: 15px;
-}
-
-.card__title--colorsize, .card_prod_tipo_prod_title, .content1_title, .card_nosotros_title {
-  color: rgb(90, 85, 85);
-  font-weight: bold;
-  font-size: 30px;
-  text-align: center;
-  padding: 2px 20px 20px 20px;
 }
 
 .contenedorimg {
@@ -238,6 +237,39 @@
 
 footer {
   border-top: 10px solid white;
+}
+
+h1 {
+  color: rgb(62, 61, 61);
+  font-weight: bold;
+  font-size: 40px;
+  background-color: rgb(156, 155, 155);
+  text-align: center;
+  padding: 30px;
+}
+
+.derechos {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.texto2 {
+  width: 90%;
+  text-align: center;
+}
+
+.titulo_art {
+  color: rgb(62, 61, 61);
+  font-weight: bold;
+  font-size: 40px;
+  background-color: rgb(156, 155, 155);
+  text-align: center;
+  padding: 30px;
+}
+
+.irarriba a {
+  color: rgb(4, 4, 66);
+  text-decoration: none;
 }
 
 @media screen and (max-width: 1023px) {
@@ -349,6 +381,10 @@ footer {
     font-size: 25px;
     padding: 15px;
   }
+  .titulo_art {
+    font-size: 25px;
+    padding: 15px;
+  }
   .carrusel {
     width: 90%;
   }
@@ -434,6 +470,8 @@ footer {
 
 .imgchica5 {
   width: 200px;
+  padding: 10px;
+  border-radius: 10%;
 }
 
 .imgchica5:hover {
@@ -446,43 +484,6 @@ footer {
 
 .imagennosotros {
   width: 90%;
-}
-
-.bordesredondeados {
-  border-radius: 3%;
-}
-
-h1 {
-  color: rgb(62, 61, 61);
-  font-weight: bold;
-  font-size: 40px;
-  background-color: rgb(156, 155, 155);
-  text-align: center;
-  padding: 30px;
-}
-
-.derechos {
-  text-align: center;
-  padding-bottom: 10px;
-}
-
-.texto2 {
-  width: 90%;
-  text-align: center;
-}
-
-.titulo_art {
-  color: rgb(62, 61, 61);
-  font-weight: bold;
-  font-size: 40px;
-  background-color: rgb(156, 155, 155);
-  text-align: center;
-  padding: 30px;
-}
-
-.irarriba a {
-  color: rgb(4, 4, 66);
-  text-decoration: none;
 }
 
 .botonnav {

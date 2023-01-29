@@ -4,7 +4,7 @@ h1 {
     font-size:40px;
     background-color: $titulo;
     text-align:center;
-    padding:30px;
+    padding: $padding_titulo;
     }
 
 .derechos{
@@ -21,7 +21,7 @@ h1 {
         font-size:40px;
         background-color: rgb(156, 155, 155);
         text-align:center;
-        padding:30px;
+        padding: $padding_titulo;
     }
 .irarriba a{
         color:rgb(4, 4, 66);

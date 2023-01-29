@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 15px;
-    border-bottom: solid 10px white;
+    border-bottom: solid 10px $blanco;
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -78,11 +78,14 @@ grid-area: main_nosotros;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
-        border-bottom: solid 10px white;
+        border-bottom: solid 10px $blanco;
         
     }
     #pie_de_pag{
         grid-area: pie_de_pag;
         
+    }
+    .bordesredondeados{
+        border-radius:$bordesredondeados;
     }
 
