@@ -21,28 +21,6 @@
     
 }
 
-#principal{
-    grid-area: principal;
-
-#eventos{
-    grid-area: eventos;
-    
-}
-
-#publicidad{
-    grid-area: publicidad;
-    
-    
-        justify-content: center;
-        align-items: center;
- 
-    border-bottom: solid 10px white;
-    display: grid;
-}
-#pie_de_pag{
-    grid-area: pie_de_pag;
-    background-color: rgb(172, 171, 171);
-}
 #grilla_nosotros{
     display: grid;
     grid-template-areas: "seccion_logo  seccion_logo"
@@ -82,5 +60,29 @@ grid-area: main_nosotros;
     display: flex;
     align-items: center;
     justify-content: center; 
-    }}
+    }
+
+    #principal{
+        grid-area: principal;
+    }
+        
+    
+    #eventos{
+        grid-area: eventos;
+        
+    }
+    
+    #publicidad{
+        grid-area: publicidad;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 10px white;
+        
+    }
+    #pie_de_pag{
+        grid-area: pie_de_pag;
+        
+    }
 
