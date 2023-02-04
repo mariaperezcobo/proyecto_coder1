@@ -1,246 +1,213 @@
 @media screen and (max-width: 1023px) {
-    #grilla{
-    display: grid;
-    grid-template-areas: "seccion_logo seccion_logo"
-                        "principal  principal"
-                        "eventos eventos"
-                        "publicidad  publicidad"
-                        "pie_de_pag  pie_de_pag";
-    grid-template-columns: 80% 20%;
-    grid-template-rows: auto auto auto auto auto;
-   }
-   #grilla_nosotros{
-    display: grid;
-    
-    grid-template-columns: 25% 75%;
-  
-   }
-   #grilla_productos{
-    display: grid;
-    
-    grid-template-columns: 25% 75%;
-  
-   }
-
-   #seccion_nav{
-    justify-content: flex-end;
-    align-items: center;
-}
-
-
-
-
+    #grilla {
+        display: grid;
+        grid-template-areas: "seccion_logo seccion_logo"
+            "principal  principal"
+            "eventos eventos"
+            "publicidad  publicidad"
+            "pie_de_pag  pie_de_pag";
+        grid-template-columns: 80% 20%;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    #grilla_nosotros {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    #grilla_productos {
+        display: grid;
+        grid-template-columns: 25% 75%;
+    }
+    #seccion_nav {
+        justify-content: flex-end;
+        align-items: center;
+    }
 }
 @media screen and (max-width: 900px) {
-   
-    .contenedorfotoprod{
+    .contenedorfotoprod {
         width: 100%;
-                   
-                }
-    .contenedortextoprod{
+    }
+     .contenedortextoprod {
         width: 100%;
         text-align: center;
         justify-content: center;
         align-items: center;
-                    
-                }
-    .imgchica2{
-        width:90%;
-}
-.card_nosotros_contenedor{
-                
-    justify-content: center;
-    align-items: center;
-    
-}
-.card_nosotros_contenedor_foto{
-    width:100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.card_nosotros_contenedor_texto{
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-}
-.texto2{
-    text-align: center;
-}
-.navegacion li a{
-    
-    padding:8px;
-    
-    margin:3px;
     }
-}
-
-@media screen and (max-width: 600px) {
- 
-    #seccion_logo{
-        justify-content: center;
-        align-items: center;
-}
-    .logo{
-        width: 100px;
-        padding:5px; 
-        }
-
-    .navegacion li a{
-        
-        font-size:15px;
-        }
-  
-    #seccion_nav{
-            justify-content: center;
-            align-items: center;
-        
-        }
-    .imgchica5{
-            width: 90%;
-            
-        }
-    #grilla_nosotros{
-            display: grid;
-            grid-template-areas: "seccion_logo"
-                                "seccion_nav"
-                                "main_nosotros"
-                                
-                                "pie_de_pag";
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto auto;
-        }
-    #grilla_productos{
-            display: grid;
-            grid-template-areas: "seccion_logo"
-                                "seccion_nav"
-                                "main_productos"
-                                
-                                "pie_de_pag";
-            grid-template-columns: 100%;
-            grid-template-rows: auto auto auto auto;
-        }
-
-    .imgchica4{
-            width: 90%;
-            
-        }
-.card_nosotros{
-            padding:10px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-top:20px;
-            margin-bottom: 20px;
-        }
-    .content1{
-            padding:10px;
-            
-            
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-top:20px;
-            margin-bottom: 20px;
-           
-            }
-    h1{
-        font-size:25px;
-        padding: 15px;
-                }
-.titulo_art{
-    font-size:25px;
-        padding: 15px;
-} 
-    
-    .carrusel{
-        
+    .imgchica2 {
         width: 90%;
     }
-   
-}   
-
-@media screen and (max-width: 480px) {
-
-    #seccion_logo{
-        
+    .card_nosotros_contenedor {
         justify-content: center;
         align-items: center;
-        
-
     }
-    #grilla_nosotros{
-        
-        grid-template-rows: auto auto auto auto;
-    }
-    #grilla_productos{
-        
-        grid-template-rows: auto auto auto auto;
-    }
-    .logo{
-        width: 100px;
-        padding:5px; 
-        }
-    .navegacion li a{
-        
-        padding:3px;
-        font-size:14px;
-        }
-    h1{
-           
-            font-size:20px;
-            padding: 20px;
-            }
-    .content1{
-                padding:10px;
-                background-color: rgb(180, 196, 196);
-                border: solid 10px white;
-                margin-left: 10px;
-                margin-right: 10px;
-                margin-top:10px;
-                margin-bottom: 40px;
-                overflow: auto;
-                }
-                .card_nosotros{
-                    padding:10px;
-                    background-color: rgb(180, 196, 196);
-                    border: solid 10px white;
-                    margin-left: 10px;
-                    margin-right: 10px;
-                    margin-top:10px;
-                    margin-bottom: 10px;
-                    overflow: auto;
-                    }
-    .imgchica5{
-        width: 90%;
-                    
-                }
-    .contenedornos{
-                
-        justify-content: center;
-        align-items: center;
-                }
-    .nosotrosfoto{
-        width:100%;
+    .card_nosotros_contenedor_foto {
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-                }
-    .nosotrostexto{
-        width: 90%;
-                    
-                }
-                
-    .imgchica4{
-        width: 90%;
-                    
-                }
-}
-
-@media screen and (max-width: 360px) {
-    .navegacion li a{
-        margin:1px;
-        padding:1px;
-        font-size:12px;
-        }
+        align-items: center;
     }
-
+    .card_nosotros_contenedor_texto {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto2 {
+        text-align: center;
+    }
+    .navegacion li a {
+        padding: 8px;
+        margin: 3px;
+    }
+    .card_index_title {
+        font-size: 28px;
+    }
+    .card_prod_tipo_prod_title {
+        font-size: 28px;
+    }
+    .titulo_art {
+        font-size: 28px;
+    }
+    .h1 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #seccion_logo {
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        width: 100px;
+        padding: 5px;
+    }
+    .navegacion li a {
+        font-size: 15px;
+    }
+    #seccion_nav {
+        justify-content: center;
+        align-items: center;
+    }
+    .imgchica5 {
+        width: 90%;
+    }
+    #grilla_nosotros {
+        display: grid;
+        grid-template-areas: "seccion_logo"
+            "seccion_nav"
+            "main_nosotros"
+            "pie_de_pag";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+    #grilla_productos {
+        display: grid;
+        grid-template-areas: "seccion_logo"
+            "seccion_nav"
+            "main_productos"
+            "pie_de_pag";
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+    .imgchica4 {
+        width: 90%;
+    }
+    .card_nosotros {
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .content1 {
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 25px;
+        padding: 15px;
+    }
+    .titulo_art {
+        font-size: 25px;
+        padding: 15px;
+    }
+    .carrusel {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #seccion_logo {
+        @include alinear_centrar;
+    }
+    #grilla_nosotros {
+        grid-template-rows: auto auto auto auto;
+    }
+    #grilla_productos {
+        grid-template-rows: auto auto auto auto;
+    }
+    .logo {
+        width: 100px;
+        padding: 5px;
+    }
+    .navegacion li a {
+        padding: 3px;
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 20px;
+        padding: 20px;
+    }
+    .card_index_title {
+        font-size: 20px;
+    }
+    .titulo_art {
+        font-size: 20px;
+    }
+    .content1 {
+        padding: 10px;
+        background-color: rgb(180, 196, 196);
+        border: solid 10px $blanco;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        overflow: auto;
+    }
+    .card_nosotros {
+        padding: 10px;
+        background-color: rgb(180, 196, 196);
+        border: solid 10px $blanco;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        overflow: auto;
+    }
+    .imgchica5 {
+        width: 90%;
+    }
+    .contenedornos {
+        @include alinear_centrar;
+    }
+    .nosotrosfoto {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nosotrostexto {
+        width: 90%;
+    }
+    .imgchica4 {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .navegacion li a {
+        margin: 1px;
+        padding: 1px;
+        font-size: 12px;
+    }
+}

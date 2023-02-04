@@ -5,7 +5,8 @@ $titulo:rgb(156, 155, 155);
 $boton:rgb(13, 13, 75);
 $botonhover:rgb(115, 115, 214);
 $blanco: white;
-
+$extra:rgb(156, 155, 155);
+$titulo:rgb(62, 61, 61);
 $colores:(
     barranav:rgb(180, 196, 196),
     contenedor:rgb(180, 196, 196),
@@ -15,6 +16,5 @@ $colores:(
     .color--#{$tipo}{
         background-color:$color;
         }
-}
-    
+} 
 

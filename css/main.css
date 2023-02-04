@@ -328,6 +328,18 @@ h1 {
     padding: 8px;
     margin: 3px;
   }
+  .card_index_title {
+    font-size: 28px;
+  }
+  .card_prod_tipo_prod_title {
+    font-size: 28px;
+  }
+  .titulo_art {
+    font-size: 28px;
+  }
+  .h1 {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 600px) {
   #seccion_logo {
@@ -411,6 +423,12 @@ h1 {
   h1 {
     font-size: 20px;
     padding: 20px;
+  }
+  .card_index_title {
+    font-size: 20px;
+  }
+  .titulo_art {
+    font-size: 20px;
   }
   .content1 {
     padding: 10px;

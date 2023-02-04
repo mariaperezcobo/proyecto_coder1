@@ -1,12 +1,11 @@
 h1 {
-    color:rgb(62, 61, 61);
+    color:$titulo;
     font-weight:bold;
     font-size:40px;
-    background-color: $titulo;
+    background-color: $extra;
     text-align:center;
     padding: $padding_titulo;
     }
-
 .derechos{
         text-align: center;
         padding-bottom:10px;
@@ -16,10 +15,10 @@ h1 {
         text-align: center;
     }
 .titulo_art{
-        color:rgb(62, 61, 61);
+        color:$titulo;
         font-weight:bold;
         font-size:40px;
-        background-color: rgb(156, 155, 155);
+        background-color: $extra;
         text-align:center;
         padding: $padding_titulo;
     }
