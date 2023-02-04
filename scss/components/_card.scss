@@ -1,7 +1,4 @@
-@mixin alinear_centrar{
-    justify-content: center;
-    align-items: center;
-}
+
 .carrusel {
     display: flex;
     flex-wrap: nowrap;
@@ -41,10 +38,6 @@
     }
 }
 
-
-
-
-
 .contenedorimg {
     display: flex;
     flex-wrap: wrap;
@@ -65,7 +58,6 @@
 
 .card_nosotros {
     padding: 20px;
-
     border: solid 10px $blanco;
     margin-left: 50px;
     margin-right: 50px;
@@ -75,7 +67,6 @@
     &_title {
         @extend .card__title--colorsize;
     }
-
     &_contenedor {
         display: flex;
         flex-wrap: wrap;
@@ -84,9 +75,7 @@
 
         &_texto {
             width: 40%;
-
         }
-
         &_foto {
             width: 60%;
             display: flex;
@@ -97,33 +86,27 @@
 
 .content1 {
     @extend .card_nosotros;
-
     &_title {
         @extend .card__title--colorsize;
     }
-
     &_espacio {
         padding: 10px;
     }
-
 }
 
 .card_prod {
     display: flex;
     flex-wrap: nowrap;
     @include alinear_centrar;
-
     border-top: 20px solid $blanco;
 
     &_tipo_prod {
         display: flex;
         @include alinear_centrar;
         width: 90%;
-
         flex-wrap: nowrap;
         padding-left: 30px;
         padding-right: 30px;
-
         overflow: auto;
 
         &_title {
@@ -132,7 +115,6 @@
         }
     }
 }
-
 .card_prod2 {
     display: flex;
     flex-wrap: nowrap;
@@ -140,13 +122,11 @@
 
     &_tipo_prod {
         display: flex;
-
         width: 90%;
         @include alinear_centrar;
         flex-wrap: nowrap;
         padding-left: 30px;
         padding-right: 30px;
-
         overflow: auto;
 
         &_fotos {
@@ -156,11 +136,9 @@
             flex-wrap: nowrap;
             padding-bottom: 30px;
             background-color: $secondary;
-
         }
     }
 }
-
 
 .content3 {
     padding-top: 20px;
@@ -175,6 +153,5 @@
 }
 
 footer {
-
     border-top: 10px solid $blanco;
 }

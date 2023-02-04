@@ -1,2 +1,7 @@
 $bordesredondeados: 10%;
 $padding_titulo: 30px;  
+
+@mixin alinear_centrar{
+    justify-content: center;
+    align-items: center;
+}
