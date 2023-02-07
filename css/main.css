@@ -202,6 +202,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 20px;
 }
 
 .content1_espacio {
@@ -374,15 +375,13 @@ h1 {
   }
   .card_contactanos_contenedor_form_texto {
     width: 100%;
-    align-items: center;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
   }
   .card_contactanos_contenedor_form_foto {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
   }
 }
 @media screen and (max-width: 600px) {

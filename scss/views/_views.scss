@@ -73,21 +73,19 @@
     }
     .card_contactanos_contenedor_form_texto {
         width: 100%;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
+        @include alinear_centrar;
+        
       }
       .card_contactanos_contenedor_form_foto {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        padding: 10px;
+        
       }
 }
 @media screen and (max-width: 600px) {
     #seccion_logo {
-        justify-content: center;
-        align-items: center;
+        @include alinear_centrar;
     }
     .logo {
         width: 100px;
@@ -97,8 +95,7 @@
         font-size: 15px;
     }
     #seccion_nav {
-        justify-content: center;
-        align-items: center;
+        @include alinear_centrar;
     }
     .imgchica5 {
         width: 90%;
