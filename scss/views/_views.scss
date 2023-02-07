@@ -80,7 +80,7 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
-        
+        @include alinear_centrar;
       }
 }
 @media screen and (max-width: 600px) {

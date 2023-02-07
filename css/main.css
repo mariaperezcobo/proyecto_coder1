@@ -183,7 +183,6 @@
 .card_contactanos_contenedor_form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
@@ -191,11 +190,8 @@
   width: 50%;
   display: flex;
   flex-wrap: wrap;
-}
-.card_contactanos_contenedor_form_texto_form {
-  padding: 20px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .card_contactanos_contenedor_form_foto {
   width: 50%;
@@ -382,6 +378,8 @@ h1 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 @media screen and (max-width: 600px) {

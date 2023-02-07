@@ -80,35 +80,37 @@
     margin-right: 50px;
     margin-top: 20px;
     overflow: auto;
+
     &_title {
         @extend .card__title--colorsize;
     }
     &_contenedor_form {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         align-items: center;
         padding: 10px;
+        
+
         &_texto 
         {
             width: 50%;
             display: flex;
             flex-wrap: wrap;
-            &_form{
-                padding: 20px;
-                align-items: center;
-                justify-content: center;
+            @include alinear_centrar;
+            
             }
-        }
+        
         &_foto {
             width: 50%;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             padding: 20px;
+            
         }
     }
 }
+
 .content1 {
     @extend .card_nosotros;
     &_title {
