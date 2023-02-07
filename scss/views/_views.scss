@@ -51,6 +51,7 @@
         justify-content: center;
         align-items: center;
     }
+  
     .texto2 {
         text-align: center;
     }
@@ -70,6 +71,18 @@
     .h1 {
         font-size: 28px;
     }
+    .card_contactanos_contenedor_form_texto {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+      }
+      .card_contactanos_contenedor_form_foto {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+      }
 }
 @media screen and (max-width: 600px) {
     #seccion_logo {
@@ -111,6 +124,7 @@
     .imgchica4 {
         width: 90%;
     }
+  
     .card_nosotros {
         padding: 10px;
         margin-left: 20px;

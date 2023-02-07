@@ -106,7 +106,7 @@
   margin-top: 20px;
 }
 
-.card__title--colorsize, .card_prod_tipo_prod_title, .content1_title, .card_nosotros_title, .card_index_title {
+.card__title--colorsize, .card_prod_tipo_prod_title, .content1_title, .card_contactanos_title, .card_nosotros_title, .card_index_title {
   color: rgb(90, 85, 85);
   font-weight: bold;
   font-size: 30px;
@@ -170,6 +170,38 @@
   width: 60%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.card_contactanos {
+  padding: 10px;
+  border: solid 10px white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  overflow: auto;
+}
+.card_contactanos_contenedor_form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.card_contactanos_contenedor_form_texto {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card_contactanos_contenedor_form_texto_form {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.card_contactanos_contenedor_form_foto {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .content1_espacio {
@@ -340,6 +372,18 @@ h1 {
   .h1 {
     font-size: 28px;
   }
+  .card_contactanos_contenedor_form_texto {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card_contactanos_contenedor_form_foto {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
 }
 @media screen and (max-width: 600px) {
   #seccion_logo {
@@ -501,6 +545,10 @@ h1 {
 }
 
 .imagennosotros {
+  width: 90%;
+}
+
+.imagen_contactanos {
   width: 90%;
 }
 
