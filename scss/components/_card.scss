@@ -65,11 +65,13 @@
         align-items: center;
         &_texto {
             width: 40%;
+        
         }
         &_foto {
             width: 60%;
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
